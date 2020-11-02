@@ -65,9 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\Srcipt\Code\AccountCode.cs" />
     <Compile Include="Assets\Srcipt\Common\CallBack.cs" />
     <Compile Include="Assets\Srcipt\Common\EventCenter.cs" />
     <Compile Include="Assets\Srcipt\Common\EventDefine.cs" />
+    <Compile Include="Assets\Srcipt\Dto\AccountDto.cs" />
     <Compile Include="Assets\Srcipt\Handler\AccountHandler.cs" />
     <Compile Include="Assets\Srcipt\Handler\BaseHandler.cs" />
     <Compile Include="Assets\Srcipt\Handler\ChatHandler.cs" />

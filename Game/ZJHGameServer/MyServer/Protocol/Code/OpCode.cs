@@ -12,5 +12,5 @@ namespace Protocol.Code
         public const int Chat = 2;
         //战斗模块
         public const int Fight = 3;
-    }
+    }   
 }

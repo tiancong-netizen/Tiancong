@@ -106,7 +106,7 @@ public class ClientPeer
     /// </summary>
     public void SendMsg(int opCode, int subCode, object value)
     {
-        msg.change(opCode, subCode, value);
+        msg.Change(opCode, subCode, value);
         SendMsg(msg);
     }
     public void SendMsg(NetMsg msg)

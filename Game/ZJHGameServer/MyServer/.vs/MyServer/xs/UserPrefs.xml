@@ -1,24 +1,19 @@
 ﻿<Properties StartupConfiguration="{97FF1806-6CE0-4135-AD9D-84D91F12F29C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyServer/ServerPeer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Game/Assets/Srcipt/Code/AccountCode.cs">
     <Files>
-      <File FileName="GameServer/Logic/AccountHandler.cs" Line="1" Column="14" />
-      <File FileName="MyServer/IApplication.cs" />
-      <File FileName="MyServer/NetMsg.cs" />
-      <File FileName="MyServer/ServerPeer.cs" Line="1" Column="1" />
+      <File FileName="GameServer/Program.cs" Line="1" Column="1" />
       <File FileName="Protocol/Code/OpCode.cs" />
-      <File FileName="GameServer/Program.cs" />
-      <File FileName="GameServer/Logic/MatchHandler.cs" />
+      <File FileName="GameServer/NetMsgCenter.cs" />
+      <File FileName="../../Game/Assets/Srcipt/Dto/AccountDto.cs" Line="5" Column="6" />
+      <File FileName="../../Game/Assets/Srcipt/Code/AccountCode.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MyServer" expanded="True" selected="True">
-            <Node name="GameServer" expanded="True">
-              <Node name="Logic" expanded="True" />
-            </Node>
-            <Node name="MyServer" expanded="True" />
-            <Node name="Protocol" expanded="True">
+          <Node name="MyServer" expanded="True">
+            <Node name="Protocol" expanded="True" selected="True">
               <Node name="Code" expanded="True" />
+              <Node name="Dto" expanded="True" />
             </Node>
           </Node>
         </State>

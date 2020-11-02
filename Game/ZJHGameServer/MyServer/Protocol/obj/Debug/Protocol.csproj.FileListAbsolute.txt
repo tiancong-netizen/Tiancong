@@ -5,3 +5,4 @@
 /Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.csproj.CoreCompileInputs.cache
 /Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.dll
 /Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.pdb
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.csprojAssemblyReference.cache

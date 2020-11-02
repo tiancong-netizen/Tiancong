@@ -17,6 +17,12 @@
   <ItemGroup>
     <Folder Include="Code\" />
     <Folder Include="..\..\..\Game\Assets\Srcipt\Code\" />
+    <Folder Include="..\..\..\Game\Assets\Srcipt\Dto\" />
+    <Folder Include="..\..\..\Game\Assets\Srcipt\Dto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\Game\Assets\Srcipt\Dto\AccountDto.cs" />
+    <Compile Include="..\..\..\Game\Assets\Srcipt\Code\AccountCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Code\OpCode.cs">

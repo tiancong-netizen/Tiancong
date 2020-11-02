@@ -16,9 +16,8 @@ public class NetMsgCenter : MonoBehaviour
     //如果消息不为空，一直执行
     private void FixedUpdate()
     {
-
-        Instance = this;
         if (client == null) return;
+        //如果消息队列不为空，一直执行处理的方法
         while (client.netMsgQueue.Count > 0)
         {
             NetMsg msg = client.netMsgQueue.Dequeue();
@@ -26,7 +25,7 @@ public class NetMsgCenter : MonoBehaviour
         }
     }
     #region 发送消息
-    public void SendMssg(int opCode, int subCode, object value)
+    public void SendMsg(int opCode, int subCode, object value)
     {
         client.SendMsg(opCode, subCode, value);
     }

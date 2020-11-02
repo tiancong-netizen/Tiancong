@@ -1,10 +1,11 @@
 ﻿using Protocol.Code;
+using Protocol.Dto;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
- 
+
 public class RegisterPanel : MonoBehaviour
 {
     private InputField input_UserName;
@@ -57,8 +58,8 @@ public class RegisterPanel : MonoBehaviour
             return;
         }
         //向服务器发送数据，注册一个用户
-         //AccountDto dto = new AccountDto(input_UserName.text, input_Password.text);
-         //NetMsgCenter.Instance.SendMsg(OpCode.Account,AccountCode.Register_CREQ,dto);
+         AccountDto dto = new AccountDto(input_UserName.text, input_Password.text);
+         NetMsgCenter.Instance.SendMsg(OpCode.Account,AccountCode.Register_CREQ,dto);
 
     }
     /// <summary>
