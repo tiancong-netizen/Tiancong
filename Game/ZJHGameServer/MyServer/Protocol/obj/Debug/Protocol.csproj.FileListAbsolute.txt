@@ -1,0 +1,7 @@
+/Users/tiancong/Desktop/Game/Game/Assets/Srcipt/Net/Protocol.dll
+/Users/tiancong/Desktop/Game/Game/Assets/Srcipt/Net/Protocol.pdb
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.AssemblyInfoInputs.cache
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.AssemblyInfo.cs
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.csproj.CoreCompileInputs.cache
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.dll
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/obj/Debug/Protocol.pdb

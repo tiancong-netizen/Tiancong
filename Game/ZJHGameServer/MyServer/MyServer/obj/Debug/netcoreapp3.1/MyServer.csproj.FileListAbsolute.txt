@@ -1,0 +1,9 @@
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/bin/Debug/netcoreapp3.1/MyServer.deps.json
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/bin/Debug/netcoreapp3.1/MyServer.dll
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/bin/Debug/netcoreapp3.1/MyServer.pdb
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/obj/Debug/netcoreapp3.1/MyServer.AssemblyInfoInputs.cache
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/obj/Debug/netcoreapp3.1/MyServer.AssemblyInfo.cs
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/obj/Debug/netcoreapp3.1/MyServer.csproj.CoreCompileInputs.cache
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/obj/Debug/netcoreapp3.1/MyServer.dll
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/obj/Debug/netcoreapp3.1/MyServer.pdb
+/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/obj/Debug/netcoreapp3.1/MyServer.csprojAssemblyReference.cache

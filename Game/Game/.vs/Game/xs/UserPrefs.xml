@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Srcipt/UI/RegisterPanel.cs">
+    <Files>
+      <File FileName="Assets/Srcipt/Net/ClientPeer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Srcipt/Net/EncodeTool.cs" Line="1" Column="1" />
+      <File FileName="Assets/Srcipt/Net/NetMsg.cs" Line="1" Column="1" />
+      <File FileName="Assets/Srcipt/Net/NetMsgCenter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Srcipt/UI/Hint.cs" Line="1" Column="1" />
+      <File FileName="Assets/Srcipt/UI/LoginPenel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Srcipt/UI/RegisterPanel.cs" Line="31" Column="63" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Game" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Srcipt" expanded="True">
+                <Node name="Net" expanded="True" />
+                <Node name="UI" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Game PreferredExecutionTarget="0a80130b-7789-4502-afb7-c1c0ef9efd33" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c2306af0-5a32-488a-9f14-84a21375f33b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

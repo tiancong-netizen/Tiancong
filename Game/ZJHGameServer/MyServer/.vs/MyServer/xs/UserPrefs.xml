@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{97FF1806-6CE0-4135-AD9D-84D91F12F29C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyServer/ServerPeer.cs">
+    <Files>
+      <File FileName="GameServer/Logic/AccountHandler.cs" Line="1" Column="14" />
+      <File FileName="MyServer/IApplication.cs" />
+      <File FileName="MyServer/NetMsg.cs" />
+      <File FileName="MyServer/ServerPeer.cs" Line="1" Column="1" />
+      <File FileName="Protocol/Code/OpCode.cs" />
+      <File FileName="GameServer/Program.cs" />
+      <File FileName="GameServer/Logic/MatchHandler.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyServer" expanded="True" selected="True">
+            <Node name="GameServer" expanded="True">
+              <Node name="Logic" expanded="True" />
+            </Node>
+            <Node name="MyServer" expanded="True" />
+            <Node name="Protocol" expanded="True">
+              <Node name="Code" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GameServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

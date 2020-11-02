@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MyServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MyServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyServer.dll": {}
+        }
+      },
+      "Protocol/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v3.5",
+        "compile": {
+          "bin/placeholder/Protocol.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Protocol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyServer/1.0.0": {
+      "type": "project",
+      "path": "../MyServer/MyServer.csproj",
+      "msbuildProject": "../MyServer/MyServer.csproj"
+    },
+    "Protocol/1.0.0": {
+      "type": "project",
+      "path": "../Protocol/Protocol.csproj",
+      "msbuildProject": "../Protocol/Protocol.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MyServer >= 1.0.0",
+      "Protocol >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tiancong/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/GameServer/GameServer.csproj",
+      "projectName": "GameServer",
+      "projectPath": "/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/GameServer/GameServer.csproj",
+      "packagesPath": "/Users/tiancong/.nuget/packages/",
+      "outputPath": "/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/GameServer/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/tiancong/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/MyServer.csproj": {
+              "projectPath": "/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/MyServer/MyServer.csproj"
+            },
+            "/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/Protocol.csproj": {
+              "projectPath": "/Users/tiancong/Desktop/Game/ZJHGameServer/MyServer/Protocol/Protocol.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

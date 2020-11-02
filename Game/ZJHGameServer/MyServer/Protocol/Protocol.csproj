@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <BaseDirectory>..\..\..\Game\Assets\Srcipt</BaseDirectory>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\Game\Assets\Srcipt\Net</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>..\..\..\Game\Assets\Srcipt\Net</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Code\" />
+    <Folder Include="..\..\..\Game\Assets\Srcipt\Code\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Code\OpCode.cs">
+      <Link>Code\OpCode.cs</Link>
+    </Compile>
+  </ItemGroup>
+</Project>
